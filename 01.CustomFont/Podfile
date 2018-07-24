@@ -1,0 +1,10 @@
+project '01.CustomFont.xcodeproj'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+target '01.CustomFont' do
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+    pod 'SnapKit'
+    
+end
