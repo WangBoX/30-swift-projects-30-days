@@ -54,6 +54,21 @@ class ViewController: UIViewController {
         }else{
             label.font = UIFont(name: "Savoye LET", size: 30)
         }
+        let one:Decimal = 2.10
+        let two:Decimal = 3.30
+        let thr:Any = one * two
+        if let z = thr as? Double {
+            print(z)
+        }
+        let four = thr as! Decimal / two
+        
+        label.text = thr as? String
+//        "\(thr)"
+        
+        print(thr)
+        print(four)
+        
+        
     }
     
     func printAllSupportedFontNames() {

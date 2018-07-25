@@ -1,0 +1,11 @@
+project '02.singleView.xcodeproj'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+target '02.singleView' do
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+    pod 'SnapKit'
+
+end
+
