@@ -7,5 +7,9 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
     pod 'SnapKit'
 
+    
+    pod 'OCTWebViewBridge',           :path =>'/Users/BlingX/Desktop/2Dfire/OCTWebViewBridge'
+
+    
 end
 

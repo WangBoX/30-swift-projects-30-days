@@ -1,16 +1,23 @@
 PODS:
-  - SnapKit (4.0.0)
+  - OCTWebViewBridge (1.0.7)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
+  - OCTWebViewBridge (from `/Users/BlingX/Desktop/2Dfire/OCTWebViewBridge`)
   - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - SnapKit
 
-SPEC CHECKSUMS:
-  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+EXTERNAL SOURCES:
+  OCTWebViewBridge:
+    :path: "/Users/BlingX/Desktop/2Dfire/OCTWebViewBridge"
 
-PODFILE CHECKSUM: 639c7b74fa9c82d30dba097de81eabe9d9832a7b
+SPEC CHECKSUMS:
+  OCTWebViewBridge: 838f94603190201d34ceae0117aeff8c732a795f
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 340879eb855bd5c89237a940eb7c124b502d9b93
 
 COCOAPODS: 1.6.0.beta.1

@@ -1,0 +1,6 @@
+framework module OCTWebViewBridge {
+  umbrella header "OCTWebViewBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}
